@@ -360,6 +360,7 @@ abstract class xyAbstractCategoryGraph {
       } 
     else {
       fwrite($f,$d);
+      echo 'ici : '.$f.'<br>';
       fclose($f);
       return true;
       }
