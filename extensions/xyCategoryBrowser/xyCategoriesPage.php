@@ -45,6 +45,8 @@ class xyCategoriesPage extends xyAbstractCategoryGraph{
    * @return SQL statement
    */
   function getSQLCategories( $title = null ) {
+    echo 'getsqlcat cat page';
+
     global $wgOut;
 
     $NScat = NS_CATEGORY;
@@ -80,6 +82,8 @@ class xyCategoriesPage extends xyAbstractCategoryGraph{
    * @return SQL statement
    */
   function getSQLCategoryLinks( $title = null ) {
+    echo 'getsql catlinks cat page';
+
     global $wgOut;
 
     $NScat = NS_CATEGORY;

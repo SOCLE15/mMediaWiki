@@ -68,6 +68,7 @@ abstract class xyAbstractCategoryGraph {
    * @param title page title
    */
   function doQuery($title = null) {
+    echo 'doQuery';
     global $wgOut;
     global $xyCategoryGraphStyle;
     error_reporting(0);
@@ -167,6 +168,8 @@ abstract class xyAbstractCategoryGraph {
  * @param title to generate md5 for filename
  */
   function cacheAge( $title ) {
+    echo 'cacheAge';
+
     $md5 = md5($title);
     $docRoot = $this->cachePath();
     $fileMap = "$docRoot$md5.map";
@@ -182,6 +185,8 @@ abstract class xyAbstractCategoryGraph {
  * @param title to generate md5 for filename
  */
   function doDot( $title ) {
+    echo 'doDot';
+
     global $wgOut;
     global $xyDotPath;
  
@@ -218,6 +223,8 @@ abstract class xyAbstractCategoryGraph {
    * @return success
    */
   function serveFile() {
+    echo 'serveFile';
+
     global $xyCategoriesMaxAge;
     // Get filename from GET parameter
     if(isset($_GET['png'])) {
@@ -281,6 +288,8 @@ abstract class xyAbstractCategoryGraph {
    * @param title to generate md5 for filename
    */
   function showImg( $title ) {
+    echo 'showImg';
+
     global $wgOut;
     global $wgUploadPath, $wgScriptPath;
  
@@ -315,6 +324,8 @@ abstract class xyAbstractCategoryGraph {
    * @return directory for graphviz files
    */
   function cachePath() {
+    echo 'cachePath';
+
     global $xyCategoriesCache;
  
     $path = __DIR__.'/'.$xyCategoriesCache;
@@ -335,6 +346,8 @@ abstract class xyAbstractCategoryGraph {
    * @return success
    */
   function file_put_contents($n,$d) {
+    echo 'filePutContents';
+
     $f=@fopen($n,"wb");
     if (!$f) {
       return false;
@@ -354,6 +367,8 @@ abstract class xyAbstractCategoryGraph {
    * @return binary string (or false if failed)
    */
   function file_get_contents($n) {
+    echo 'file get contents';
+
     $f=@fopen($n,"rb");
     if (!$f) {
       return false;

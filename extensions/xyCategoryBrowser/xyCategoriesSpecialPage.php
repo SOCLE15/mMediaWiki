@@ -47,6 +47,7 @@ class xyCategoriesSpecialPage extends SpecialPage {
    * @brief Provides special page.
    */
   function execute($par) {
+    echo 'execute';
     require_once 'xyCategoriesPage.php';
     $cap = new xyCategoriesPage();
     $cap->doQuery();

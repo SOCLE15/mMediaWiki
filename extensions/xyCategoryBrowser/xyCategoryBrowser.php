@@ -61,7 +61,7 @@ $xyCategoryGraphStyle = array(
   "HEIGHT"              => "1920",    // height in pixels (96th of an inch)
   "WIDTH"               => "768"      // width in pixels (96th of an inch)
 );
- echo 'TARAAACE';
+
 if(!defined('MEDIAWIKI')){
   require_once 'xyCategoryGraph.php';
   // Serve the PNG image
@@ -112,7 +112,7 @@ class xyCategoryHook {
    */ 
   public static function hookSetup() {
     global $IP, $wgMessageCache, $wgHooks;
- 
+    echo 'hook setup';
     $wgHooks['CategoryPageView'][] = 'xyCategoryHook::hook';
   }
  
@@ -122,6 +122,7 @@ class xyCategoryHook {
    * @param $cat category
    */ 
   public static function hook($cat) {
+    echo 'hook';
     require_once 'xyCategoryGraph.php';
     global $wgOut, $xyCategoriesMaxAge;
     $wgOut->setSquidMaxage( $xyCategoriesMaxAge );

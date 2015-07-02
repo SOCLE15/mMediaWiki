@@ -38,6 +38,7 @@ class xyCategoryGraph extends xyAbstractCategoryGraph{
    */
   public function __construct() {
     parent::__construct();
+    echo 'Constructor of catgraph';
   }
 
   /**
@@ -47,6 +48,7 @@ class xyCategoryGraph extends xyAbstractCategoryGraph{
    * @return SQL statement
    */
   function getSQLCategories( $title = null ) {
+    echo 'getsqlcat cat graph';
     global $wgOut;
  
     $id   = $title->getArticleID();
@@ -97,6 +99,7 @@ class xyCategoryGraph extends xyAbstractCategoryGraph{
    * @return SQL statement
    */ 
   function getSQLCategoryLinks( $title ) {
+    echo 'getsqlcatlinks cat graph';
     global $wgOut;
  
     $id   = $title->getArticleID();
