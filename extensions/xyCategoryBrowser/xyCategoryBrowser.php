@@ -111,8 +111,8 @@ class xyCategoryHook {
    * Sets <em>CategoryPageView</em> hook.
    */ 
   public static function hookSetup() {
+    echo 'xyCategoryHook->hookSetup'
     global $IP, $wgMessageCache, $wgHooks;
-    echo 'hook setup';
     $wgHooks['CategoryPageView'][] = 'xyCategoryHook::hook';
   }
  
@@ -122,7 +122,7 @@ class xyCategoryHook {
    * @param $cat category
    */ 
   public static function hook($cat) {
-    echo 'hook';
+    echo 'xyCategoryHook->hook';
     require_once 'xyCategoryGraph.php';
     global $wgOut, $xyCategoriesMaxAge;
     $wgOut->setSquidMaxage( $xyCategoriesMaxAge );

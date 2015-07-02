@@ -68,7 +68,7 @@ abstract class xyAbstractCategoryGraph {
    * @param title page title
    */
   function doQuery($title = null) {
-    echo 'doQuery';
+    echo 'xyAbstractCategoryGraph->doQuery\n';
     global $wgOut;
     global $xyCategoryGraphStyle;
     error_reporting(0);
@@ -168,7 +168,7 @@ abstract class xyAbstractCategoryGraph {
  * @param title to generate md5 for filename
  */
   function cacheAge( $title ) {
-    echo 'cacheAge';
+    echo 'xyAbstractCategoryGraph->cacheAge\n';
 
     $md5 = md5($title);
     $docRoot = $this->cachePath();
@@ -185,7 +185,7 @@ abstract class xyAbstractCategoryGraph {
  * @param title to generate md5 for filename
  */
   function doDot( $title ) {
-    echo 'doDot';
+    echo 'xyAbstractCategoryGraph->doDot\n';
 
     global $wgOut;
     global $xyDotPath;
@@ -223,7 +223,7 @@ abstract class xyAbstractCategoryGraph {
    * @return success
    */
   function serveFile() {
-    echo 'serveFile';
+    echo 'xyAbstractCategoryGraph->serveFile\n';
 
     global $xyCategoriesMaxAge;
     // Get filename from GET parameter
@@ -288,7 +288,7 @@ abstract class xyAbstractCategoryGraph {
    * @param title to generate md5 for filename
    */
   function showImg( $title ) {
-    echo 'showImg';
+    echo 'xyAbstractCategoryGraph->showImg\n';
 
     global $wgOut;
     global $wgUploadPath, $wgScriptPath;
@@ -324,7 +324,7 @@ abstract class xyAbstractCategoryGraph {
    * @return directory for graphviz files
    */
   function cachePath() {
-    echo 'cachePath';
+    echo 'xyAbstractCategoryGraph->cachePath\n';
 
     global $xyCategoriesCache;
  
@@ -346,7 +346,7 @@ abstract class xyAbstractCategoryGraph {
    * @return success
    */
   function file_put_contents($n,$d) {
-    echo 'filePutContents';
+    echo 'xyAbstractCategoryGraph->file_put_contents\n';
 
     $f=@fopen($n,"wb");
     if (!$f) {
@@ -367,7 +367,7 @@ abstract class xyAbstractCategoryGraph {
    * @return binary string (or false if failed)
    */
   function file_get_contents($n) {
-    echo 'file get contents';
+    echo 'xyAbstractCategoryGraph->file_get_contents\n';
 
     $f=@fopen($n,"rb");
     if (!$f) {

@@ -37,8 +37,8 @@ class xyCategoryGraph extends xyAbstractCategoryGraph{
    * @brief Creates new instance.
    */
   public function __construct() {
+    echo 'xyCategoryGraph->construct\n';
     parent::__construct();
-    echo 'Constructor of catgraph';
   }
 
   /**
@@ -48,7 +48,7 @@ class xyCategoryGraph extends xyAbstractCategoryGraph{
    * @return SQL statement
    */
   function getSQLCategories( $title = null ) {
-    echo 'getsqlcat cat graph';
+    echo 'xyCategoryGraph->getSQLCategories\n';
     global $wgOut;
  
     $id   = $title->getArticleID();
@@ -99,7 +99,7 @@ class xyCategoryGraph extends xyAbstractCategoryGraph{
    * @return SQL statement
    */ 
   function getSQLCategoryLinks( $title ) {
-    echo 'getsqlcatlinks cat graph';
+    echo 'xyCategoryGraph->getSQLCategoryLinks\n';
     global $wgOut;
  
     $id   = $title->getArticleID();
