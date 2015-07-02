@@ -333,6 +333,7 @@ abstract class xyAbstractCategoryGraph {
     if (!is_dir($path)) {
       mkdir($path, 0775);
       }
+      echo $path;
     return $path;
     }
  
