@@ -354,7 +354,7 @@ abstract class xyAbstractCategoryGraph {
   function file_put_contents($n,$d) {
     echo 'xyAbstractCategoryGraph->file_put_contents<br>';
     echo '$n :'.$n.' $d'.$d.'<br>';
-    $f=@fopen($n,"wb") or die(print_r(error_get_last(),true));;
+    $f=@fopen($n,"wb") or die(print_r(error_get_last(),true));
     if (!$f) {
       return false;
       } 
@@ -376,7 +376,7 @@ abstract class xyAbstractCategoryGraph {
   function file_get_contents($n) {
     echo 'xyAbstractCategoryGraph->file_get_contents<br>';
 
-    $f=@fopen($n,"rb");
+    $f=@fopen($n,"rb") or die(print_r(error_get_last(),true));
     if (!$f) {
       return false;
       } 
