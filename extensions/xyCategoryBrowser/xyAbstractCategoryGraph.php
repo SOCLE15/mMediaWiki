@@ -199,6 +199,8 @@ abstract class xyAbstractCategoryGraph {
     echo '$fileDot '.$fileDot.'<br>';
     echo '$fileMap '.$fileMap.'<br>';
     echo '$filePng '.$filePng.'<br>';
+    echo '$xyDotPath '.$xyDotPath.'<br>';
+
     $this->file_put_contents($fileDot, $this->dot);
  
     if ($xyDotPath) {
