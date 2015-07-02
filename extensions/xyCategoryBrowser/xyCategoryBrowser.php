@@ -61,7 +61,7 @@ $xyCategoryGraphStyle = array(
   "HEIGHT"              => "1920",    // height in pixels (96th of an inch)
   "WIDTH"               => "768"      // width in pixels (96th of an inch)
 );
- 
+ echo 'TARAAACE';
 if(!defined('MEDIAWIKI')){
   require_once 'xyCategoryGraph.php';
   // Serve the PNG image
