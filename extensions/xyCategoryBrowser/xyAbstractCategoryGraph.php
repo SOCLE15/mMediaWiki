@@ -195,7 +195,10 @@ abstract class xyAbstractCategoryGraph {
     $fileDot = "$docRoot$md5.dot";
     $fileMap = "$docRoot$md5.map";
     $filePng = "$docRoot$md5.png";
- 
+
+    echo '$fileDot '+$fileDot+'<br>';
+    echo '$fileMap '+$fileMap+'<br>';
+    echo '$filePng '+$filePng+'<br>';
     $this->file_put_contents($fileDot, $this->dot);
  
     if ($xyDotPath) {
