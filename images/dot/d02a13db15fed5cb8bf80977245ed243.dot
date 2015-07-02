@@ -1,0 +1,5 @@
+digraph "d02a13db15fed5cb8bf80977245ed243" {
+rankdir=LR, ranksep=1;
+node [fontsize=10, fontname=Helvetica];
+SOCLE_LAAS15 [label="SOCLE LAAS15\n" URL="http://smw.learning-socle.org/index.php/SOCLE_LAAS15", fontcolor="blue"];
+}

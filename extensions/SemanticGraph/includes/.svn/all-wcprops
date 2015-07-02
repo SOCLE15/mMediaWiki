@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/semanticgraph/!svn/ver/24/trunk/SemanticGraph/includes
+END
+SemanticGraphQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/semanticgraph/!svn/ver/32/trunk/SemanticGraph/includes/SemanticGraphQuery.php
+END
+SemanticGraphRenderer.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/semanticgraph/!svn/ver/24/trunk/SemanticGraph/includes/SemanticGraphRenderer.php
+END
+SemanticGraphHelperFunctions.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/semanticgraph/!svn/ver/24/trunk/SemanticGraph/includes/SemanticGraphHelperFunctions.php
+END
+SemanticGraphBuilders.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/semanticgraph/!svn/ver/20/trunk/SemanticGraph/includes/SemanticGraphBuilders.php
+END
+SemanticGraphSettings.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/semanticgraph/!svn/ver/32/trunk/SemanticGraph/includes/SemanticGraphSettings.php
+END
+SemanticGraph2.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/semanticgraph/!svn/ver/32/trunk/SemanticGraph/includes/SemanticGraph2.php
+END
+SemanticGraphFiles.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/semanticgraph/!svn/ver/24/trunk/SemanticGraph/includes/SemanticGraphFiles.php
+END

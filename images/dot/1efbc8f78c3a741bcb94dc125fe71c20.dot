@@ -1,0 +1,5 @@
+digraph "1efbc8f78c3a741bcb94dc125fe71c20" {
+rankdir=LR, ranksep=1;
+node [fontsize=10, fontname=Helvetica];
+SOCLE [label="SOCLE" URL="http://smw.learning-socle.org/index.php/SOCLE", fontcolor="blue"];
+}

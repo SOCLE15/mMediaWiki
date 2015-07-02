@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="450" overflow="hidden">
+<script type="text/ecmascript">var fx=-144;var fy=161;var scale=2.7777777777778;function zoom(factor) {scale = scale*factor;document.getElementById('mover').setAttributeNS(null,"transform", translation(fx,fy,scale));}function zoomOut() {zoom(0.8);}function zoomIn() {zoom(1.25);}function panLeft() {pan(200,0);}function panRight() {pan(-200,0);}function panUp() {pan(0,112.5);}function panDown() {pan(0,-112.5);}function pan(x,y) {fx = fx + x/scale;fy = fy + y/scale;document.getElementById('mover').setAttributeNS(null,"transform", translation(fx,fy,scale));}function centre() {fx = -144;fy = 161;document.getElementById('mover').setAttributeNS(null,"transform", translation(fx,fy,scale));}var draggingThing;var startx;var starty;function startDrag(evt) {draggingThing=document.getElementById('mover');startx = evt.screenX;starty = evt.screenY;draggingThing.onmousemove=moveDrag;draggingThing.onmouseup=endDrag;draggingThing.onselectstart=nullFunc;}function nullFunc(evt) {return false;}function moveDrag(evt) {return true;}function endDrag(evt) {fx = fx-(startx-evt.screenX)/scale;fy = fy-(starty-evt.screenY)/scale;draggingThing.setAttributeNS(null,"transform", translation(fx,fy,scale));draggingThing=null;}function translation(x, y, s) {return 'translate(400,225) scale('+s+') translate('+x+','+y+')';}</script><g id="mover" class="graph" transform="translate(400,225) scale(2.7777777777778) translate(-144,161) ">
+<title>1454e8aa6f437913215be7db258e3a1f</title>
+<polygon fill="white" stroke="white" points="-4,5 -4,-318 285,-318 285,5 -4,5" onmousedown="startDrag(evt)"/>
+<!-- SOCLE -->
+<g id="node1" class="node"><title>SOCLE</title>
+<a xlink:href="http://smw.learning-socle.org/index.php/SOCLE" xlink:title="SOCLE" xlink:show="new">
+<ellipse fill="none" stroke="black" cx="30" cy="-153" rx="28.9661" ry="18"/>
+<text text-anchor="middle" x="30" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00" fill="blue" style="">SOCLE</text>
+</a>
+</g>
+<!-- Environnement_Cloud -->
+<g id="node2" class="node"><title>Environnement_Cloud</title>
+<a xlink:href="http://smw.learning-socle.org/index.php/Environnement_Cloud" xlink:title="Environnement\nCloud" xlink:show="new">
+<ellipse fill="none" stroke="black" cx="206" cy="-292" rx="62.9325" ry="22.6274"/>
+<text text-anchor="middle" x="206" y="-295" font-family="Helvetica,sans-Serif" font-size="10.00" fill="blue" style="">Environnement</text>
+<text text-anchor="middle" x="206" y="-283" font-family="Helvetica,sans-Serif" font-size="10.00" fill="blue" style="">Cloud</text>
+</a>
+</g>
+<!-- SOCLE&#45;&gt;Environnement_Cloud -->
+<g id="edge2" class="edge"><title>SOCLE-&gt;Environnement_Cloud</title>
+<path fill="none" stroke="black" d="M42.1236,-169.693C59.6833,-192.868 94.2501,-234.877 132,-261 137.985,-265.141 144.609,-268.884 151.363,-272.217"/>
+<polygon fill="black" stroke="black" points="150.06,-275.471 160.604,-276.509 153.009,-269.122 150.06,-275.471"/>
+</g>
+<!-- Espace_collaboratif -->
+<g id="node3" class="node"><title>Espace_collaboratif</title>
+<a xlink:href="http://smw.learning-socle.org/index.php/Espace_collaboratif" xlink:title="Espace collaboratif\n" xlink:show="new">
+<ellipse fill="none" stroke="black" cx="206" cy="-234" rx="63.8444" ry="18"/>
+<text text-anchor="middle" x="206" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00" fill="blue" style="">Espace collaboratif</text>
+</a>
+</g>
+<!-- SOCLE&#45;&gt;Espace_collaboratif -->
+<g id="edge4" class="edge"><title>SOCLE-&gt;Espace_collaboratif</title>
+<path fill="none" stroke="black" d="M51.4581,-165.469C71.8098,-177.026 103.438,-194.301 132,-207 139.374,-210.279 147.28,-213.48 155.081,-216.466"/>
+<polygon fill="black" stroke="black" points="153.91,-219.765 164.502,-219.992 156.363,-213.209 153.91,-219.765"/>
+</g>
+<!-- LMS -->
+<g id="node4" class="node"><title>LMS</title>
+<a xlink:href="http://smw.learning-socle.org/index.php/LMS" xlink:title="LMS" xlink:show="new">
+<ellipse fill="none" stroke="black" cx="206" cy="-180" rx="27" ry="18"/>
+<text text-anchor="middle" x="206" y="-177" font-family="Helvetica,sans-Serif" font-size="10.00" fill="blue" style="">LMS</text>
+</a>
+</g>
+<!-- SOCLE&#45;&gt;LMS -->
+<g id="edge6" class="edge"><title>SOCLE-&gt;LMS</title>
+<path fill="none" stroke="black" d="M58.6691,-157.398C88.9045,-162.036 136.631,-169.358 169.527,-174.405"/>
+<polygon fill="black" stroke="black" points="169.23,-177.9 179.645,-175.957 170.291,-170.981 169.23,-177.9"/>
+</g>
+<!-- Modèle_sémantique -->
+<g id="node5" class="node"><title>Modèle_sémantique</title>
+<a xlink:href="http://smw.learning-socle.org/index.php/Mod%C3%A8le_s%C3%A9mantique?action=edit" xlink:title="Modèle sémantique\n" xlink:show="new">
+<ellipse fill="none" stroke="black" cx="206" cy="-126" rx="66.2466" ry="18"/>
+<text text-anchor="middle" x="206" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00" fill="red" style="">Modèle sémantique</text>
+</a>
+</g>
+<!-- SOCLE&#45;&gt;Modèle_sémantique -->
+<g id="edge8" class="edge"><title>SOCLE-&gt;Modèle_sémantique</title>
+<path fill="none" stroke="black" d="M58.6691,-148.602C80.0969,-145.315 110.309,-140.68 137.802,-136.462"/>
+<polygon fill="black" stroke="black" points="138.433,-139.906 147.787,-134.93 137.372,-132.987 138.433,-139.906"/>
+</g>
+<!-- Plateforme_interactive -->
+<g id="node6" class="node"><title>Plateforme_interactive</title>
+<a xlink:href="http://smw.learning-socle.org/index.php/Plateforme_interactive?action=edit" xlink:title="Plateforme interactive\n" xlink:show="new">
+<ellipse fill="none" stroke="black" cx="206" cy="-72" rx="72.8641" ry="18"/>
+<text text-anchor="middle" x="206" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00" fill="red" style="">Plateforme interactive</text>
+</a>
+</g>
+<!-- SOCLE&#45;&gt;Plateforme_interactive -->
+<g id="edge10" class="edge"><title>SOCLE-&gt;Plateforme_interactive</title>
+<path fill="none" stroke="black" d="M51.4581,-140.531C71.8098,-128.974 103.438,-111.699 132,-99 138.701,-96.0205 145.842,-93.1046 152.944,-90.3562"/>
+<polygon fill="black" stroke="black" points="154.443,-93.5314 162.56,-86.7222 151.968,-86.9834 154.443,-93.5314"/>
+</g>
+<!-- SOCLE_LAAS15 -->
+<g id="node7" class="node"><title>SOCLE_LAAS15</title>
+<a xlink:href="http://smw.learning-socle.org/index.php/SOCLE_LAAS15" xlink:title="SOCLE LAAS15\n" xlink:show="new">
+<ellipse fill="none" stroke="black" cx="206" cy="-18" rx="53.0189" ry="18"/>
+<text text-anchor="middle" x="206" y="-15" font-family="Helvetica,sans-Serif" font-size="10.00" fill="blue" style="">SOCLE LAAS15</text>
+</a>
+</g>
+<!-- SOCLE&#45;&gt;SOCLE_LAAS15 -->
+<g id="edge12" class="edge"><title>SOCLE-&gt;SOCLE_LAAS15</title>
+<path fill="none" stroke="black" d="M41.6651,-136.452C58.9311,-113.065 93.4331,-70.3731 132,-45 139.062,-40.3539 147.028,-36.3774 155.05,-33.0179"/>
+<polygon fill="black" stroke="black" points="156.397,-36.2493 164.441,-29.3545 153.853,-29.7279 156.397,-36.2493"/>
+</g>
+</g>
+<g id="zoomcontrols" class="graph"><rect id="background" style="fill:none;stroke:black;" x="0" y="0" width="800" height="450"/><g id="zoomin" class="node" onclick="zoomIn()"><rect style="fill:#f0f0f0;stroke:black;" x="10" y="10" width="20" height="15"/><text text-anchor="middle" x="20" y="20" style="font-family:Arial;font-size:7pt;fill:black;">in</text></g><g id="zoomout" class="node" onclick="zoomOut()"><rect style="fill:#f0f0f0;stroke:black;" x="40" y="10" width="20" height="15"/><text text-anchor="middle" x="50" y="20"  style="font-family:Arial;font-size:7pt;fill:black;">out</text></g><g id="left" class="node" onclick="panLeft()"><polygon style="fill:#f0f0f0;stroke:black;" points="10,55  20,45 20,65"/></g><g id="right" class="node" onclick="panRight()"><polygon style="fill:#f0f0f0;stroke:black;" points="50,45  60,55 50,65"/></g><g id="up" class="node" onclick="panUp()"><polygon style="fill:#f0f0f0;stroke:black;" points="25,40 35,30 45,40"/></g><g id="down" class="node" onclick="panDown()"><polygon style="fill:#f0f0f0;stroke:black;" points="25,70 45,70 35,80"/></g><g id="centre" class="node" onclick="centre()"><ellipse style="fill:#f0f0f0;stroke:black;" cx="35" cy="55" rx="10" ry="10"/></g></g></svg>

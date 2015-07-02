@@ -1,0 +1,38 @@
+#
+# What this extension does
+# ========================
+#
+# - A special page "Graphical Categories Browser" is added.
+# - A graph is shown on each category page showing the relationships to other
+#   categories.
+# - Images are file cached. Cache control to match html and image output is
+#   supplied.
+#
+#
+# Installation
+# ============
+#
+# - Install Graphviz - Graph Visualization Software available at
+#   http://www.graphviz.org/
+# - Download extension and copy to to directory extensions.
+# - Correct $xyDotPath and $xyCategoriesCache to your needs.
+# - Create directory images/xyGraphvizCache
+# - Add the following line to LocalSettings.php
+#   require_once("$IP/extensions/xyCategoryBrowser/xyCategoryBrowser.php");
+# - Developer documentation can be generated in directory doc using Doxygen
+#   with file doxyfile.
+#
+# Customization
+# =============
+#
+# To change the design you may override the entries in the following array:
+#
+# $xyCategoryGraphStyle = array(
+#   "COLOR_NODE"          => "#EEEEEE", // color of category nodes
+#   "COLOR_NODE_ERROR"    => "#FF0000", // color for internal error
+#   "COLOR_NODE_REDIRECT" => "#FFCCCC", // color of redirected category nodes
+#   "COLOR_NODE_MISSING"  => "#FFFFCC", // color of missing category nodes
+#   "COLOR_LINK_REDIRECT" => "#FF0000", // color of redirect links
+#   "HEIGHT"              => "1920",    // height in pixels (96th of an inch)
+#   "WIDTH"               => "768"      // width in pixels (96th of an inch)
+# );

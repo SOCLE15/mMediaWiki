@@ -1,0 +1,17 @@
+digraph "1454e8aa6f437913215be7db258e3a1f" {
+rankdir=LR, ranksep=1;
+node [fontsize=10, fontname=Helvetica];
+SOCLE [label="SOCLE" URL="http://smw.learning-socle.org/index.php/SOCLE", fontcolor="blue"];
+Environnement_Cloud [label="Environnement\nCloud" URL="http://smw.learning-socle.org/index.php/Environnement_Cloud", fontcolor="blue"];
+Espace_collaboratif [label="Espace collaboratif\n" URL="http://smw.learning-socle.org/index.php/Espace_collaboratif", fontcolor="blue"];
+LMS [label="LMS" URL="http://smw.learning-socle.org/index.php/LMS", fontcolor="blue"];
+Modèle_sémantique [label="Modèle sémantique\n" URL="http://smw.learning-socle.org/index.php/Mod%C3%A8le_s%C3%A9mantique?action=edit", fontcolor="red"];
+Plateforme_interactive [label="Plateforme interactive\n" URL="http://smw.learning-socle.org/index.php/Plateforme_interactive?action=edit", fontcolor="red"];
+SOCLE_LAAS15 [label="SOCLE LAAS15\n" URL="http://smw.learning-socle.org/index.php/SOCLE_LAAS15", fontcolor="blue"];
+SOCLE -> Environnement_Cloud;
+SOCLE -> Espace_collaboratif;
+SOCLE -> LMS;
+SOCLE -> Modèle_sémantique;
+SOCLE -> Plateforme_interactive;
+SOCLE -> SOCLE_LAAS15;
+}

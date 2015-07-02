@@ -1,0 +1,1 @@
+<map version="0.8.1"><node ID="SOCLE" TEXT="SOCLE" LINK="http://smw.learning-socle.org/index.php/SOCLE" COLOR="#0000ff" FOLDED="false"/></map>
