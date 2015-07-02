@@ -354,7 +354,7 @@ abstract class xyAbstractCategoryGraph {
   function file_put_contents($n,$d) {
     echo 'xyAbstractCategoryGraph->file_put_contents<br>';
     echo '$n :'.$n.' $d'.$d.'<br>';
-    $f=@fopen($n,"wb");
+    $f=@fopen($n,"wb") or die(print_r(error_get_last(),true));;
     if (!$f) {
       return false;
       } 
