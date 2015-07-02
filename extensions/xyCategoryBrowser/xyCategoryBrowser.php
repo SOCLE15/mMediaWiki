@@ -111,7 +111,7 @@ class xyCategoryHook {
    * Sets <em>CategoryPageView</em> hook.
    */ 
   public static function hookSetup() {
-    echo 'xyCategoryHook->hookSetup'
+    echo 'xyCategoryHook->hookSetup';
     global $IP, $wgMessageCache, $wgHooks;
     $wgHooks['CategoryPageView'][] = 'xyCategoryHook::hook';
   }
