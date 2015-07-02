@@ -45,7 +45,7 @@ class xyCategoriesPage extends xyAbstractCategoryGraph{
    * @return SQL statement
    */
   function getSQLCategories( $title = null ) {
-    echo 'xyCategoriesPage->getSQLCategories\n';
+    echo 'xyCategoriesPage->getSQLCategories<br>';
 
     global $wgOut;
 
@@ -82,7 +82,7 @@ class xyCategoriesPage extends xyAbstractCategoryGraph{
    * @return SQL statement
    */
   function getSQLCategoryLinks( $title = null ) {
-    echo 'xyCategoriesPage->getSQLCategoryLinks\n';
+    echo 'xyCategoriesPage->getSQLCategoryLinks<br>';
 
     global $wgOut;
 

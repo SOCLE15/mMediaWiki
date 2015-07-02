@@ -68,7 +68,7 @@ abstract class xyAbstractCategoryGraph {
    * @param title page title
    */
   function doQuery($title = null) {
-    echo 'xyAbstractCategoryGraph->doQuery\n';
+    echo 'xyAbstractCategoryGraph->doQuery<br>';
     global $wgOut;
     global $xyCategoryGraphStyle;
     error_reporting(0);
@@ -168,7 +168,7 @@ abstract class xyAbstractCategoryGraph {
  * @param title to generate md5 for filename
  */
   function cacheAge( $title ) {
-    echo 'xyAbstractCategoryGraph->cacheAge\n';
+    echo 'xyAbstractCategoryGraph->cacheAge<br>';
 
     $md5 = md5($title);
     $docRoot = $this->cachePath();
@@ -185,7 +185,7 @@ abstract class xyAbstractCategoryGraph {
  * @param title to generate md5 for filename
  */
   function doDot( $title ) {
-    echo 'xyAbstractCategoryGraph->doDot\n';
+    echo 'xyAbstractCategoryGraph->doDot<br>';
 
     global $wgOut;
     global $xyDotPath;
@@ -223,7 +223,7 @@ abstract class xyAbstractCategoryGraph {
    * @return success
    */
   function serveFile() {
-    echo 'xyAbstractCategoryGraph->serveFile\n';
+    echo 'xyAbstractCategoryGraph->serveFile<br>';
 
     global $xyCategoriesMaxAge;
     // Get filename from GET parameter
@@ -288,7 +288,7 @@ abstract class xyAbstractCategoryGraph {
    * @param title to generate md5 for filename
    */
   function showImg( $title ) {
-    echo 'xyAbstractCategoryGraph->showImg\n';
+    echo 'xyAbstractCategoryGraph->showImg<br>';
 
     global $wgOut;
     global $wgUploadPath, $wgScriptPath;
@@ -324,7 +324,7 @@ abstract class xyAbstractCategoryGraph {
    * @return directory for graphviz files
    */
   function cachePath() {
-    echo 'xyAbstractCategoryGraph->cachePath\n';
+    echo 'xyAbstractCategoryGraph->cachePath<br>';
 
     global $xyCategoriesCache;
  
@@ -346,7 +346,7 @@ abstract class xyAbstractCategoryGraph {
    * @return success
    */
   function file_put_contents($n,$d) {
-    echo 'xyAbstractCategoryGraph->file_put_contents\n';
+    echo 'xyAbstractCategoryGraph->file_put_contents<br>';
 
     $f=@fopen($n,"wb");
     if (!$f) {
@@ -367,7 +367,7 @@ abstract class xyAbstractCategoryGraph {
    * @return binary string (or false if failed)
    */
   function file_get_contents($n) {
-    echo 'xyAbstractCategoryGraph->file_get_contents\n';
+    echo 'xyAbstractCategoryGraph->file_get_contents<br>';
 
     $f=@fopen($n,"rb");
     if (!$f) {
