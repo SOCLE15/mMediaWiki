@@ -316,6 +316,7 @@ function getImage($PlantUML_Source, $argv, $parser=null) {
         }
     }
     if ($result['file']) {
+        echo getUploadPath();
         $result['src'] = getUploadPath()."/".basename($result['file']);
         if ((!$usecloud) && $plantumlImagetype == 'png') {
             $map_filename = $full_path_prefix.".cmapx";
@@ -374,6 +375,7 @@ function renderPNG($image) {
 # The callback function for converting the input text to HTML output
 function renderUML( $input, $argv, $parser=null ) {
     global $plantumlImagetype;
+    echo 'renderUML ipt'.$input.' argv '.$argv;
     $image = getImage($input, $argv, $parser);
  
     if ($image['src'] == false) {
