@@ -375,6 +375,7 @@ function renderPNG($image) {
 # The callback function for converting the input text to HTML output
 function renderUML( $input, $argv, $parser=null ) {
     global $plantumlImagetype;
+    echo 'renderUML ipt'.$input.' argv '.$argv;
     $image = getImage($input, $argv, $parser);
  
     if ($image['src'] == false) {
