@@ -1,8 +1,0 @@
-graph example2 {
-  tete -- cou;
- cou -- torse;
-  torse -- brasGauche;
-  torse -- bradDroit;
-  torse -- jambeGauche;
-  torse -- jambeDroite;
-}
