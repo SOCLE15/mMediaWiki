@@ -98,7 +98,7 @@ $plantumlImagetype = 'svg';
  */
 function getUploadDirectory() {
     global $wgUploadDirectory;
-    return $wgUploadDirectory;
+    return $wgUploadDirectory.'/uml';
 }
  
 function getUploadPath() {
