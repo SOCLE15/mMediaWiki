@@ -316,6 +316,7 @@ function getImage($PlantUML_Source, $argv, $parser=null) {
         }
     }
     if ($result['file']) {
+        echo getUploadPath();
         $result['src'] = getUploadPath()."/".basename($result['file']);
         if ((!$usecloud) && $plantumlImagetype == 'png') {
             $map_filename = $full_path_prefix.".cmapx";
