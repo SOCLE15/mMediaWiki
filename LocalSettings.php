@@ -207,6 +207,8 @@ $smwgShowFactbox = SMW_FACTBOX_NONEMPTY;
 $wgUseImageMagick = true;
 $wgImageMagickConvertCommand = "/usr/bin/convert";
 
+#TEST GIT 
+
 
 ### NameSpaces ###
 define("NS_GEI", 3000); 
