@@ -5,4 +5,5 @@ node [height=0 style="filled", shape="box", font="Helvetica-Bold", fontsize="10"
 "Modèle" -> "Modèle_de_projet" [dir=back];
 "Modèle" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Mod%C3%A8le",peripheries=1,label="Modèle",fillcolor="#EEEEEE"];
 "Modèle_de_projet" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Mod%C3%A8le_de_projet",peripheries=2,label="Modèle de projet",fillcolor="#EEEEEE"];
+"User" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:User",peripheries=1,label="User",fillcolor="#FFFFCC"];
 }

@@ -222,6 +222,8 @@ define("NS_GMM", 3002);
 define("NS_GMM_TALK", 3003);
 define("NS_TEACHER",3004);
 define("NS_TEACHER_TALK",3005);
+define("SF_NS_FORM2",106);
+define("SF_NS_FORM_TALK2",107);
 
 $wgExtraNamespaces[NS_GEI] = "GEI";
 $wgExtraNamespaces[NS_GEI_TALK] = "GEI_Talk";
@@ -229,6 +231,9 @@ $wgExtraNamespaces[NS_GMM] = "GMM";
 $wgExtraNamespaces[NS_GMM_TALK] = "GMM_Talk";
 $wgExtraNamespaces[NS_TEACHER] = "TEACHER";
 $wgExtraNamespaces[NS_TEACHER_TALK] = "TEACHER_Talk";
+$wgExtraNamespaces[SF_NS_FORM2] = "Form";
+$wgExtraNamespaces[SF_NS_FORM_TALK2] = "Form_talk";
+
 
 
 ### SecureInclude ###
