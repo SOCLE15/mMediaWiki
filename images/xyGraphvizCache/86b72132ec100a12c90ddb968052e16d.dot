@@ -1,0 +1,14 @@
+digraph a {
+size="8,20";
+rankdir=LR;
+node [height=0 style="filled", shape="box", font="Helvetica-Bold", fontsize="10", color="#00000"];
+"Besoin" -> "Besoin_fonctionnel" [dir=back];
+"Besoin" -> "Besoin_non_fonctionnel" [dir=back];
+"Besoin" -> "Connaissance" [dir=back];
+"Objet" -> "Besoin" [dir=back];
+"Besoin" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Besoin",peripheries=2,label="Besoin",fillcolor="#EEEEEE"];
+"Besoin_fonctionnel" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Besoin_fonctionnel",peripheries=1,label="Besoin fonctionnel",fillcolor="#EEEEEE"];
+"Besoin_non_fonctionnel" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Besoin_non_fonctionnel",peripheries=1,label="Besoin non fonctionnel",fillcolor="#EEEEEE"];
+"Connaissance" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Connaissance",peripheries=1,label="Connaissance",fillcolor="#EEEEEE"];
+"Objet" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Objet",peripheries=1,label="Objet",fillcolor="#EEEEEE"];
+}

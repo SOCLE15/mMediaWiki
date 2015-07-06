@@ -1,0 +1,12 @@
+digraph a {
+size="8,20";
+rankdir=LR;
+node [height=0 style="filled", shape="box", font="Helvetica-Bold", fontsize="10", color="#00000"];
+"Modèle" -> "Modèle_de_projet" [dir=back];
+"Modèle" -> "Modèle_de_besoin" [dir=back];
+"Objet" -> "Modèle" [dir=back];
+"Modèle" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Mod%C3%A8le",peripheries=2,label="Modèle",fillcolor="#EEEEEE"];
+"Modèle_de_besoin" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Mod%C3%A8le_de_besoin",peripheries=1,label="Modèle de besoin",fillcolor="#EEEEEE"];
+"Modèle_de_projet" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Mod%C3%A8le_de_projet",peripheries=1,label="Modèle de projet",fillcolor="#EEEEEE"];
+"Objet" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Objet",peripheries=1,label="Objet",fillcolor="#EEEEEE"];
+}

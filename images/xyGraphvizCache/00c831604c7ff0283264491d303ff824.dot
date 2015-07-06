@@ -1,0 +1,8 @@
+digraph a {
+size="8,20";
+rankdir=LR;
+node [height=0 style="filled", shape="box", font="Helvetica-Bold", fontsize="10", color="#00000"];
+"Modèle" -> "Modèle_de_besoin" [dir=back];
+"Modèle" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Mod%C3%A8le",peripheries=1,label="Modèle",fillcolor="#EEEEEE"];
+"Modèle_de_besoin" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Mod%C3%A8le_de_besoin",peripheries=2,label="Modèle de besoin",fillcolor="#EEEEEE"];
+}

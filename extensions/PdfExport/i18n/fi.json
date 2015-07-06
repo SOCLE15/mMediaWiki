@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beluga",
+			"Nike"
+		]
+	},
+	"pdfprint": "Vie PDF-tiedostoksi",
+	"pdfprint_error": "PDF-vienti epäonnistui",
+	"pdf_print_link": "Tulosta PDF-tiedostoksi",
+	"pdf_submit": "Tee PDF",
+	"pdf_portrait": "Pysty",
+	"pdf_landscape": "Vaaka",
+	"pdf_pass_protect_label": "Salasanasuojaus",
+	"pdf_pass_protect_yes": "kyllä",
+	"pdf_pass_protect_no": "ei",
+	"pdf_perm_print_yes": "kyllä",
+	"pdf_perm_print_no": "ei",
+	"pdf_perm_modify_label": "Sallitaanko muutokset?",
+	"pdf_perm_modify_yes": "kyllä",
+	"pdf_perm_modify_no": "ei",
+	"pdf_perm_copy_label": "Sallitaanko tekstin kopiointi?",
+	"pdf_perm_copy_yes": "kyllä",
+	"pdf_perm_copy_no": "ei",
+	"pdf_perm_annotate_yes": "kyllä",
+	"pdf_perm_annotate_no": "ei",
+	"pdf_size": "Paperikoko",
+	"pdf_filename": "Tiedostonimi"
+}

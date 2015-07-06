@@ -1,0 +1,8 @@
+digraph a {
+size="8,20";
+rankdir=LR;
+node [height=0 style="filled", shape="box", font="Helvetica-Bold", fontsize="10", color="#00000"];
+"Objet" -> "Sujet_de_projet" [dir=back];
+"Objet" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Objet",peripheries=1,label="Objet",fillcolor="#EEEEEE"];
+"Sujet_de_projet" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Sujet_de_projet",peripheries=2,label="Sujet de projet",fillcolor="#EEEEEE"];
+}

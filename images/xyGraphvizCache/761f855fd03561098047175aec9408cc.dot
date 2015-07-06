@@ -1,0 +1,37 @@
+digraph a {
+size="8,20";
+rankdir=LR;
+node [height=0 style="filled", shape="box", font="Helvetica-Bold", fontsize="10", color="#00000"];
+"Besoin" -> "Besoin_fonctionnel" [dir=back];
+"Besoin" -> "Besoin_non_fonctionnel" [dir=back];
+"Categorie" -> "Definition" [dir=back];
+"Categorie" -> "GraphViz" [dir=back];
+"GraphViz" -> "GraphViz_dot" [dir=back];
+"Definition" -> "Ingredient" [dir=back];
+"Categorie" -> "Projet" [dir=back];
+"Categorie" -> "SujetDeProjet" [dir=back];
+"Besoin_fonctionnel" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Besoin_fonctionnel",peripheries=1,label="Besoin fonctionnel",fillcolor="#EEEEEE"];
+"Besoin_non_fonctionnel" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Besoin_non_fonctionnel",peripheries=1,label="Besoin non fonctionnel",fillcolor="#EEEEEE"];
+"Categorie" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Categorie",peripheries=1,label="Categorie",fillcolor="#EEEEEE"];
+"Definition" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Definition",peripheries=1,label="Definition",fillcolor="#EEEEEE"];
+"GraphViz" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:GraphViz",peripheries=1,label="GraphViz",fillcolor="#EEEEEE"];
+"GraphViz_dot" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:GraphViz_dot",peripheries=1,label="GraphViz dot",fillcolor="#EEEEEE"];
+"Ingredient" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Ingredient",peripheries=1,label="Ingredient",fillcolor="#EEEEEE"];
+"Projet" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Projet",peripheries=1,label="Projet",fillcolor="#EEEEEE"];
+"SujetDeProjet" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:SujetDeProjet",peripheries=1,label="SujetDeProjet",fillcolor="#EEEEEE"];
+"Pages_avec_des_liens_de_fichiers_brisés" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Pages_avec_des_liens_de_fichiers_bris%C3%A9s",peripheries=1,label="Pages avec des liens de fichiers brisés",fillcolor="#FFFFCC"];
+"Wikipedia_formatting_and_function_templates" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Wikipedia_formatting_and_function_templates",peripheries=1,label="Wikipedia formatting and function templates",fillcolor="#FFFFCC"];
+"Template_documentation" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Template_documentation",peripheries=1,label="Template documentation",fillcolor="#FFFFCC"];
+"Template_namespace_templates" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Template_namespace_templates",peripheries=1,label="Template namespace templates",fillcolor="#FFFFCC"];
+"Wikipedia_utility_templates" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Wikipedia_utility_templates",peripheries=1,label="Wikipedia utility templates",fillcolor="#FFFFCC"];
+"Lua-based_templates" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Lua-based_templates",peripheries=1,label="Lua-based templates",fillcolor="#FFFFCC"];
+"Besoin" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Besoin",peripheries=1,label="Besoin",fillcolor="#FFFFCC"];
+"TODO" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:TODO",peripheries=1,label="TODO",fillcolor="#FFFFCC"];
+"Recette" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Recette",peripheries=1,label="Recette",fillcolor="#FFFFCC"];
+"Latest_stable_software_release_templates" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Latest_stable_software_release_templates",peripheries=1,label="Latest stable software release templates",fillcolor="#FFFFCC"];
+"Microformat_(uF)_message_templates" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Microformat_(uF)_message_templates",peripheries=1,label="Microformat (uF) message templates",fillcolor="#FFFFCC"];
+"Software_infobox_templates" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Software_infobox_templates",peripheries=1,label="Software infobox templates",fillcolor="#FFFFCC"];
+"TemplateData_documentation" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:TemplateData_documentation",peripheries=1,label="TemplateData documentation",fillcolor="#FFFFCC"];
+"Templates_generating_hCalendars" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Templates_generating_hCalendars",peripheries=1,label="Templates generating hCalendars",fillcolor="#FFFFCC"];
+"Projet:Infobox/Modèles_liés" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Projet:Infobox/Mod%C3%A8les_li%C3%A9s",peripheries=1,label="Projet:Infobox/Modèles liés",fillcolor="#FFFFCC"];
+}

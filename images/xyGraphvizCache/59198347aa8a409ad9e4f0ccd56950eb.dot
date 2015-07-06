@@ -1,0 +1,10 @@
+digraph a {
+size="8,20";
+rankdir=LR;
+node [height=0 style="filled", shape="box", font="Helvetica-Bold", fontsize="10", color="#00000"];
+"Definition" -> "Ingredient" [dir=back];
+"Définition" -> "Definition" [color="#FF0000", dir=back];
+"Definition" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Definition",peripheries=1,label="Definition",fillcolor="#FFCCCC"];
+"Définition" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:D%C3%A9finition",peripheries=1,label="",fillcolor="#EEEEEE"];
+"Ingredient" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Ingredient",peripheries=2,label="Ingredient",fillcolor="#EEEEEE"];
+}

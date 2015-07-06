@@ -1,0 +1,10 @@
+digraph a {
+size="8,20";
+rankdir=LR;
+node [height=0 style="filled", shape="box", font="Helvetica-Bold", fontsize="10", color="#00000"];
+"Extension" -> "GraphViz" [dir=back];
+"Catégorie" -> "Extension" [dir=back];
+"Catégorie" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Cat%C3%A9gorie",peripheries=1,label="Catégorie",fillcolor="#EEEEEE"];
+"Extension" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Extension",peripheries=2,label="Extension",fillcolor="#EEEEEE"];
+"GraphViz" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:GraphViz",peripheries=1,label="GraphViz",fillcolor="#EEEEEE"];
+}

@@ -1,0 +1,9 @@
+digraph a {
+size="8,20";
+rankdir=LR;
+node [height=0 style="filled", shape="box", font="Helvetica-Bold", fontsize="10", color="#00000"];
+"Wikipedia_formatting_and_function_templates" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Wikipedia_formatting_and_function_templates",peripheries=1,label="Wikipedia formatting and function templates",fillcolor="#FFFFCC"];
+"Template_documentation" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Template_documentation",peripheries=1,label="Template documentation",fillcolor="#FFFFCC"];
+"Template_namespace_templates" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Template_namespace_templates",peripheries=2,label="Template namespace templates",fillcolor="#FFFFCC"];
+"A_ranger" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:A_ranger",peripheries=1,label="A ranger",fillcolor="#FFFFCC"];
+}

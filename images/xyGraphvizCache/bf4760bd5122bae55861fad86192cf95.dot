@@ -1,0 +1,8 @@
+digraph a {
+size="8,20";
+rankdir=LR;
+node [height=0 style="filled", shape="box", font="Helvetica-Bold", fontsize="10", color="#00000"];
+"A_ranger" -> "Latest_stable_software_release_templates" [dir=back];
+"A_ranger" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:A_ranger",peripheries=1,label="A ranger",fillcolor="#EEEEEE"];
+"Latest_stable_software_release_templates" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Latest_stable_software_release_templates",peripheries=2,label="Latest stable software release templates",fillcolor="#EEEEEE"];
+}

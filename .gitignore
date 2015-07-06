@@ -1,0 +1,10 @@
+cache/*
+docs/*
+includes/*
+languages/*
+maintenance/*
+mw-config/*
+resources/*
+serialized/*
+tests/*
+vendor/*

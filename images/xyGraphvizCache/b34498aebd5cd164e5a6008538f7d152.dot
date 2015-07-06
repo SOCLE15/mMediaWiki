@@ -1,0 +1,30 @@
+digraph a {
+size="8,20";
+rankdir=LR;
+node [height=0 style="filled", shape="box", font="Helvetica-Bold", fontsize="10", color="#00000"];
+"TODO" -> "A_ranger" [dir=back];
+"A_ranger" -> "Latest_stable_software_release_templates" [dir=back];
+"A_ranger" -> "Lua-based_templates" [dir=back];
+"A_ranger" -> "Microformat_(uF)_message_templates" [dir=back];
+"A_ranger" -> "Projet:Infobox/Modèles_liés" [dir=back];
+"A_ranger" -> "Software_infobox_templates" [dir=back];
+"A_ranger" -> "TemplateData_documentation" [dir=back];
+"A_ranger" -> "Template_documentation" [dir=back];
+"A_ranger" -> "Template_namespace_templates" [dir=back];
+"A_ranger" -> "Templates_generating_hCalendars" [dir=back];
+"A_ranger" -> "Wikipedia_formatting_and_function_templates" [dir=back];
+"A_ranger" -> "Wikipedia_utility_templates" [dir=back];
+"A_ranger" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:A_ranger",peripheries=2,label="A ranger",fillcolor="#EEEEEE"];
+"Latest_stable_software_release_templates" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Latest_stable_software_release_templates",peripheries=1,label="Latest stable software release templates",fillcolor="#EEEEEE"];
+"Lua-based_templates" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Lua-based_templates",peripheries=1,label="Lua-based templates",fillcolor="#EEEEEE"];
+"Microformat_(uF)_message_templates" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Microformat_(uF)_message_templates",peripheries=1,label="Microformat (uF) message templates",fillcolor="#EEEEEE"];
+"Projet:Infobox/Modèles_liés" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Projet:Infobox/Mod%C3%A8les_li%C3%A9s",peripheries=1,label="Projet:Infobox/Modèles liés",fillcolor="#EEEEEE"];
+"Software_infobox_templates" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Software_infobox_templates",peripheries=1,label="Software infobox templates",fillcolor="#EEEEEE"];
+"TODO" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:TODO",peripheries=1,label="TODO",fillcolor="#EEEEEE"];
+"TemplateData_documentation" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:TemplateData_documentation",peripheries=1,label="TemplateData documentation",fillcolor="#EEEEEE"];
+"Template_documentation" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Template_documentation",peripheries=1,label="Template documentation",fillcolor="#EEEEEE"];
+"Template_namespace_templates" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Template_namespace_templates",peripheries=1,label="Template namespace templates",fillcolor="#EEEEEE"];
+"Templates_generating_hCalendars" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Templates_generating_hCalendars",peripheries=1,label="Templates generating hCalendars",fillcolor="#EEEEEE"];
+"Wikipedia_formatting_and_function_templates" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Wikipedia_formatting_and_function_templates",peripheries=1,label="Wikipedia formatting and function templates",fillcolor="#EEEEEE"];
+"Wikipedia_utility_templates" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Wikipedia_utility_templates",peripheries=1,label="Wikipedia utility templates",fillcolor="#EEEEEE"];
+}

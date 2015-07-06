@@ -176,7 +176,7 @@ require_once "$IP/extensions/ImageMap/ImageMap.php";
 require_once "$IP/extensions/xyCategoryBrowser/xyCategoryBrowser.php";
 require_once "$IP/extensions/PlantUML/PlantUML.php";
 require_once "$IP/extensions/SecureInclude/SecureInclude.php";
-require_once("$IP/extensions/PdfExport/PdfExport.php");
+require_once "$IP/extensions/PdfExport/PdfExport.php";
 
 ### PdfExport : MPdf
 $wgPdfExportMPdf = $IP . '/extensions/PdfExport/mpdf/mpdf.php';
@@ -242,3 +242,4 @@ $wg_include_allowed_features['remote'] = true;
 $wg_include_allowed_url_regexp = array('/^http:\/\/.*$/');
 $wg_include_disallowed_url_regexp = array('/^.*:\/\/intranet/');
 $wg_include_allowed_features['highlight'] = true;
+$wg_include_allowed_features['iframe'] = true;

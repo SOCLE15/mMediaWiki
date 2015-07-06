@@ -1,0 +1,21 @@
+digraph a {
+size="8,20";
+rankdir=LR;
+node [height=0 style="filled", shape="box", font="Helvetica-Bold", fontsize="10", color="#00000"];
+"Objet" -> "Projet" [dir=back];
+"Objet" -> "Sujet_de_projet" [dir=back];
+"Objet" -> "Définition" [dir=back];
+"Objet" -> "Besoin" [dir=back];
+"Objet" -> "Modèle" [dir=back];
+"Objet" -> "Recette" [dir=back];
+"Catégorie" -> "Objet" [dir=back];
+"Besoin" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Besoin",peripheries=1,label="Besoin",fillcolor="#EEEEEE"];
+"Catégorie" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Cat%C3%A9gorie",peripheries=1,label="Catégorie",fillcolor="#EEEEEE"];
+"Définition" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:D%C3%A9finition",peripheries=1,label="Définition",fillcolor="#EEEEEE"];
+"Modèle" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Mod%C3%A8le",peripheries=1,label="Modèle",fillcolor="#EEEEEE"];
+"Objet" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Objet",peripheries=2,label="Objet",fillcolor="#EEEEEE"];
+"Projet" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Projet",peripheries=1,label="Projet",fillcolor="#EEEEEE"];
+"Recette" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Recette",peripheries=1,label="Recette",fillcolor="#EEEEEE"];
+"Sujet_de_projet" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Sujet_de_projet",peripheries=1,label="Sujet de projet",fillcolor="#EEEEEE"];
+"Connaissance" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Connaissance",peripheries=1,label="Connaissance",fillcolor="#FFFFCC"];
+}

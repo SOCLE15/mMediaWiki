@@ -1,0 +1,12 @@
+digraph a {
+size="8,20";
+rankdir=LR;
+node [height=0 style="filled", shape="box", font="Helvetica-Bold", fontsize="10", color="#00000"];
+"Catégorie" -> "Objet" [dir=back];
+"Catégorie" -> "TODO" [dir=back];
+"Catégorie" -> "Extension" [dir=back];
+"Catégorie" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Cat%C3%A9gorie",peripheries=2,label="Catégorie",fillcolor="#EEEEEE"];
+"Extension" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Extension",peripheries=1,label="Extension",fillcolor="#EEEEEE"];
+"Objet" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Objet",peripheries=1,label="Objet",fillcolor="#EEEEEE"];
+"TODO" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:TODO",peripheries=1,label="TODO",fillcolor="#EEEEEE"];
+}

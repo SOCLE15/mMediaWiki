@@ -1,0 +1,6 @@
+digraph a {
+size="8,20";
+rankdir=LR;
+node [height=0 style="filled", shape="box", font="Helvetica-Bold", fontsize="10", color="#00000"];
+"Connaissance" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Connaissance",peripheries=2,label="Connaissance",fillcolor="#FFFFCC"];
+}
