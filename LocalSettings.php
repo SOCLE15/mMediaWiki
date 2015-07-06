@@ -175,6 +175,7 @@ require_once "$IP/extensions/SemanticGraph/includes/SemanticGraph2.php";
 require_once "$IP/extensions/ImageMap/ImageMap.php";
 require_once "$IP/extensions/xyCategoryBrowser/xyCategoryBrowser.php";
 require_once "$IP/extensions/PlantUML/PlantUML.php";
+require_once "$IP/extensions/SecureInclude/SecureInclude.php";
 
 $wgDefaultSkin = "apex";
 $wgScribuntoDefaultEngine = 'luastandalone';
@@ -223,3 +224,14 @@ $wgExtraNamespaces[NS_TEACHER] = "TEACHER";
 $wgExtraNamespaces[NS_TEACHER_TALK] = "TEACHER_Talk";
 
 
+### SecureInclude ###
+#Uncomment/Comment the following line to activate/desactivate local include
+#$wg_include_allowed_features['local'] = true;
+$wg_include_allowed_parent_paths = $_SERVER['DOCUMENT_ROOT'];
+$wg_include_disallowed_regex = array('/.*LocalSettings.php/','/.*\.conf/', '/.*\/\.ht/');
+
+#Uncomment/Comment the following line to activate/desactivate remote include
+$wg_include_allowed_features['remote'] = true;
+$wg_include_allowed_url_regexp = array('/^http:\/\/.*$/');
+$wg_include_disallowed_url_regexp = array('/^.*:\/\/intranet/');
+$wg_include_allowed_features['highlight'] = true;
