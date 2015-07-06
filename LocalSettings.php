@@ -152,7 +152,7 @@ $wgShowExceptionDetails = true;
 error_reporting( -1 );
 ini_set( 'display_errors', 1 );
 
-enableSemantics('smw.learning-socle.org');
+enableSemantics('mywiki.org');
 
 #wfLoadExtension('SemanticGraph');
 #wfLoadExtension('SemanticForms');
@@ -175,8 +175,15 @@ require_once "$IP/extensions/SemanticGraph/includes/SemanticGraph2.php";
 require_once "$IP/extensions/ImageMap/ImageMap.php";
 require_once "$IP/extensions/xyCategoryBrowser/xyCategoryBrowser.php";
 require_once "$IP/extensions/PlantUML/PlantUML.php";
+require_once("$IP/extensions/PdfExport/PdfExport.php");
 
+### PdfExport : MPdf
+$wgPdfExportMPdf = $IP . '/extensions/PdfExport/mpdf/mpdf.php';
+
+### Skin
 $wgDefaultSkin = "apex";
+
+### Visual Editor / Wiki Editor
 $wgScribuntoDefaultEngine = 'luastandalone';
 $wgDefaultUserOptions['visualeditor-enable'] = 1;
 $wgHiddenPrefs[] = 'visualeditor-enable';
