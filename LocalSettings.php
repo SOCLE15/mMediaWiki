@@ -233,6 +233,12 @@ $wgExtraNamespaces[NS_TEACHER] = "TEACHER";
 $wgExtraNamespaces[NS_TEACHER_TALK] = "TEACHER_Talk";
 $wgExtraNamespaces[SF_NS_FORM2] = "Form";
 $wgExtraNamespaces[SF_NS_FORM_TALK2] = "Form_talk";
+$wgExtraNamespaces[102] = "Property";
+$wgExtraNamespaces[103] = "Property_talk";
+$wgExtraNamespaces[104] = "Type";
+$wgExtraNamespaces[105] = "Type_talk";
+$wgExtraNamespaces[108] = "Concept";
+$wgExtraNamespaces[109] = "Concept_talk";
 
 
 
