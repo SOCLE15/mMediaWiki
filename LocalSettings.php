@@ -222,8 +222,7 @@ define("NS_GMM", 3002);
 define("NS_GMM_TALK", 3003);
 define("NS_TEACHER",3004);
 define("NS_TEACHER_TALK",3005);
-define("SF_NS_FORM2",106);
-define("SF_NS_FORM_TALK2",107);
+
 
 $wgExtraNamespaces[NS_GEI] = "GEI";
 $wgExtraNamespaces[NS_GEI_TALK] = "GEI_Talk";
@@ -231,16 +230,39 @@ $wgExtraNamespaces[NS_GMM] = "GMM";
 $wgExtraNamespaces[NS_GMM_TALK] = "GMM_Talk";
 $wgExtraNamespaces[NS_TEACHER] = "TEACHER";
 $wgExtraNamespaces[NS_TEACHER_TALK] = "TEACHER_Talk";
-$wgExtraNamespaces[SF_NS_FORM2] = "Form";
-$wgExtraNamespaces[SF_NS_FORM_TALK2] = "Form_talk";
 $wgExtraNamespaces[102] = "Property";
 $wgExtraNamespaces[103] = "Property_talk";
 $wgExtraNamespaces[104] = "Type";
 $wgExtraNamespaces[105] = "Type_talk";
+$wgExtraNamespaces[106] = "Form";
+$wgExtraNamespaces[107] = "Form_talk";
 $wgExtraNamespaces[108] = "Concept";
 $wgExtraNamespaces[109] = "Concept_talk";
 
-$smwgNamespacesWithSemanticLinks = array(102 => true, 104 => true, 106 => true, 108 => true);
+$smwgNamespacesWithSemanticLinks = array(
+NS_MAIN => true,
+NS_TALK => false,
+NS_USER => true,
+NS_USER_TALK => false,
+NS_PROJECT => true,
+NS_PROJECT_TALK => false,
+NS_MEDIAWIKI => false,
+NS_MEDIAWIKI_TALK => false,
+NS_TEMPLATE => true,
+NS_TEMPLATE_TALK => false,
+NS_HELP => true,
+NS_HELP_TALK => false,
+NS_CATEGORY => true,
+NS_CATEGORY_TALK => false,
+SMW_NS_PROPERTY	=> true,
+SMW_NS_PROPERTY_TALK => false,
+SMW_NS_TYPE => true,
+SMW_NS_TYPE_TALK => false,
+SMW_NS_CONCEPT => true,
+SMW_NS_CONCEPT_TALK => false,
+SF_NS_FORM => true,
+SF_NS_FORM_TALK	=> false
+);
 
 ### SecureInclude ###
 #Uncomment/Comment the following line to activate/desactivate local include
