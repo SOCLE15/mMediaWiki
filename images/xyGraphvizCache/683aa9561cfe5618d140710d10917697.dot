@@ -5,4 +5,5 @@ node [height=0 style="filled", shape="box", font="Helvetica-Bold", fontsize="10"
 "Objet" -> "Projet" [dir=back];
 "Objet" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Objet",peripheries=1,label="Objet",fillcolor="#EEEEEE"];
 "Projet" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Projet",peripheries=2,label="Projet",fillcolor="#EEEEEE"];
+"User" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:User",peripheries=1,label="User",fillcolor="#FFFFCC"];
 }

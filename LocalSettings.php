@@ -240,7 +240,7 @@ $wgExtraNamespaces[105] = "Type_talk";
 $wgExtraNamespaces[108] = "Concept";
 $wgExtraNamespaces[109] = "Concept_talk";
 
-
+$smwgNamespacesWithSemanticLinks = array(102 => true, 104 => true, 106 => true, 108 => true);
 
 ### SecureInclude ###
 #Uncomment/Comment the following line to activate/desactivate local include
