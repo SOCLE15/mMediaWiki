@@ -1,0 +1,14 @@
+digraph QueryResult {size="50,50";rankdir=TB; "SOCLE LAAS15" [URL = "[[SOCLE LAAS15]]"]; 
+ "Installer un container \nMediaWiki sur Proxmox" [URL = "[[Installer un container MediaWiki sur Proxmox]]"];  "SOCLE LAAS15" -> "Installer un container \nMediaWiki sur Proxmox"  [color=black];
+ "Tutorial: Installer et \nconfigurer MediaWiki" [URL = "[[Tutorial: Installer et configurer MediaWiki]]"];  "SOCLE LAAS15" -> "Tutorial: Installer et \nconfigurer MediaWiki"  [color=black];
+ "Installer Semantic \nMediaWiki sur MW 1.25+ \nvia Composer" [URL = "[[Installer Semantic MediaWiki sur MW 1.25+ via Composer]]"];  "SOCLE LAAS15" -> "Installer Semantic \nMediaWiki sur MW 1.25+ \nvia Composer"  [color=black];
+ "Installer l'extension \nSemanticForms sur \nMediaWiki" [URL = "[[Installer l'extension SemanticForms sur MediaWiki]]"];  "SOCLE LAAS15" -> "Installer l'extension \nSemanticForms sur \nMediaWiki"  [color=black];
+ "Introduction à l'UML \navec Derek Banas" [URL = "[[Introduction à l'UML avec Derek Banas]]"];  "SOCLE LAAS15" -> "Introduction à l'UML \navec Derek Banas"  [color=black];
+ "Description d'APP pour \nSOCLE" [URL = "[[Description d'APP pour SOCLE]]"];  "SOCLE LAAS15" -> "Description d'APP pour \nSOCLE"  [color=black];
+ "Une installation de \nProxmox" [URL = "[[Une installation de Proxmox]]"];  "SOCLE LAAS15" -> "Une installation de \nProxmox"  [color=black];
+ "Proxmox VE" [URL = "[[Proxmox VE]]"];  "SOCLE LAAS15" -> "Proxmox VE"  [color=red];
+ "MediaWiki" [URL = "[[MediaWiki]]"];  "SOCLE LAAS15" -> "MediaWiki"  [color=red];
+ "Semantic MediaWiki" [URL = "[[Semantic MediaWiki]]"];  "SOCLE LAAS15" -> "Semantic MediaWiki"  [color=red];
+ "Moodle" [URL = "[[Moodle]]"];  "SOCLE LAAS15" -> "Moodle"  [color=red];
+ "BigBlueButton" [URL = "[[BigBlueButton]]"];  "SOCLE LAAS15" -> "BigBlueButton"  [color=red];
+ "Plop" [URL = "[[Plop]]"];  "SOCLE LAAS15" -> "Plop"  [color=red];}

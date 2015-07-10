@@ -119,7 +119,7 @@ $wgDiff3 = "/usr/bin/diff3";
 # The following permissions were set based on your choice in the installer
 $wgGroupPermissions['*']['createaccount'] = true;
 $wgGroupPermissions['*']['edit'] = false;
-$wgGroupPermissions['*']['read'] = false;
+$wgGroupPermissions['*']['read'] = true;
 $wgGroupPermissions['user']['edit'] = true;
 $wgGroupPermissions['user']['read'] = true;
 
@@ -152,7 +152,7 @@ $wgShowExceptionDetails = true;
 error_reporting( -1 );
 ini_set( 'display_errors', 1 );
 
-enableSemantics('mywiki.org');
+enableSemantics('http://smw.learning-socle.org/index.php/', true);
 
 #wfLoadExtension('SemanticGraph');
 #wfLoadExtension('SemanticForms');
@@ -161,7 +161,7 @@ enableSemantics('mywiki.org');
 #wfLoadExtension('VisualEditor');
 
 require_once "$IP/extensions/SemanticForms/SemanticForms.php";
-#require_once "$IP/extensions/SemanticResultFormats/SemanticResultFormats.php";
+require_once "$IP/extensions/SemanticResultFormats/SemanticResultFormats.php";
 require_once "$IP/extensions/Scribunto/Scribunto.php";
 require_once "$IP/extensions/VisualEditor/VisualEditor.php";
 #require_once "$IP/extensions/ParserFunctions/ParserFunctions.php";
@@ -177,6 +177,9 @@ require_once "$IP/extensions/xyCategoryBrowser/xyCategoryBrowser.php";
 require_once "$IP/extensions/PlantUML/PlantUML.php";
 require_once "$IP/extensions/SecureInclude/SecureInclude.php";
 require_once "$IP/extensions/PdfExport/PdfExport.php";
+
+### SRF graph format
+$srfgFormats[] = 'graph';
 
 ### PdfExport : MPdf
 $wgPdfExportMPdf = $IP . '/extensions/PdfExport/mpdf/mpdf.php';

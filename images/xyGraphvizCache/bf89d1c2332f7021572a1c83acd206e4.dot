@@ -7,5 +7,4 @@ node [height=0 style="filled", shape="box", font="Helvetica-Bold", fontsize="10"
 "Définition" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:D%C3%A9finition",peripheries=1,label="Définition",fillcolor="#EEEEEE"];
 "Ingrédient" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Ingr%C3%A9dient",peripheries=2,label="Ingrédient",fillcolor="#EEEEEE"];
 "Version" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:Version",peripheries=1,label="Version",fillcolor="#EEEEEE"];
-"User" [URL="http://smw.learning-socle.org/index.php/Cat%C3%A9gorie:User",peripheries=1,label="User",fillcolor="#FFFFCC"];
 }
